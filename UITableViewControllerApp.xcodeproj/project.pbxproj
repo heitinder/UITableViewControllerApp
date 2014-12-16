@@ -10,11 +10,11 @@
 		CF3241EA1A40EF7D000B92F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3241E91A40EF7D000B92F1 /* main.m */; };
 		CF3241ED1A40EF7D000B92F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3241EC1A40EF7D000B92F1 /* AppDelegate.m */; };
 		CF3241F01A40EF7D000B92F1 /* UITableViewControllerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF3241EE1A40EF7D000B92F1 /* UITableViewControllerApp.xcdatamodeld */; };
-		CF3241F31A40EF7D000B92F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3241F21A40EF7D000B92F1 /* ViewController.m */; };
 		CF3241F61A40EF7D000B92F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3241F41A40EF7D000B92F1 /* Main.storyboard */; };
 		CF3241F81A40EF7D000B92F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3241F71A40EF7D000B92F1 /* Images.xcassets */; };
 		CF3241FB1A40EF7D000B92F1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF3241F91A40EF7D000B92F1 /* LaunchScreen.xib */; };
 		CF3242071A40EF7D000B92F1 /* UITableViewControllerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3242061A40EF7D000B92F1 /* UITableViewControllerAppTests.m */; };
+		CF3242151A40F815000B92F1 /* HSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3242141A40F815000B92F1 /* HSTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +34,14 @@
 		CF3241EB1A40EF7D000B92F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CF3241EC1A40EF7D000B92F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CF3241EF1A40EF7D000B92F1 /* UITableViewControllerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UITableViewControllerApp.xcdatamodel; sourceTree = "<group>"; };
-		CF3241F11A40EF7D000B92F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CF3241F21A40EF7D000B92F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CF3241F51A40EF7D000B92F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF3241F71A40EF7D000B92F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CF3241FA1A40EF7D000B92F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CF3242001A40EF7D000B92F1 /* UITableViewControllerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewControllerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3242051A40EF7D000B92F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF3242061A40EF7D000B92F1 /* UITableViewControllerAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerAppTests.m; sourceTree = "<group>"; };
+		CF3242131A40F815000B92F1 /* HSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSTableViewController.h; sourceTree = "<group>"; };
+		CF3242141A40F815000B92F1 /* HSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +65,8 @@
 		CF3241DB1A40EF7D000B92F1 = {
 			isa = PBXGroup;
 			children = (
+				CF3242131A40F815000B92F1 /* HSTableViewController.h */,
+				CF3242141A40F815000B92F1 /* HSTableViewController.m */,
 				CF3241E61A40EF7D000B92F1 /* UITableViewControllerApp */,
 				CF3242031A40EF7D000B92F1 /* UITableViewControllerAppTests */,
 				CF3241E51A40EF7D000B92F1 /* Products */,
@@ -85,8 +87,6 @@
 			children = (
 				CF3241EB1A40EF7D000B92F1 /* AppDelegate.h */,
 				CF3241EC1A40EF7D000B92F1 /* AppDelegate.m */,
-				CF3241F11A40EF7D000B92F1 /* ViewController.h */,
-				CF3241F21A40EF7D000B92F1 /* ViewController.m */,
 				CF3241F41A40EF7D000B92F1 /* Main.storyboard */,
 				CF3241F71A40EF7D000B92F1 /* Images.xcassets */,
 				CF3241F91A40EF7D000B92F1 /* LaunchScreen.xib */,
@@ -222,9 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF3242151A40F815000B92F1 /* HSTableViewController.m in Sources */,
 				CF3241ED1A40EF7D000B92F1 /* AppDelegate.m in Sources */,
 				CF3241EA1A40EF7D000B92F1 /* main.m in Sources */,
-				CF3241F31A40EF7D000B92F1 /* ViewController.m in Sources */,
 				CF3241F01A40EF7D000B92F1 /* UITableViewControllerApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

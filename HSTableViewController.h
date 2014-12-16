@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HSTableViewController.h
 //  UITableViewControllerApp
 //
 //  Created by Heitinder Singh on 12/16/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HSTableViewController : UITableViewController
 
 @end
-
